@@ -1,18 +1,17 @@
-
 public class question6c 
 {
 
 	public static void main(String[] args) 
 	{
-		int a=2019;
+		int a=1600;
 		
-		if ((a%400==0) && (a%4==0))
+		if ((a%4==0) && (a%100!=0))
 		{
 			System.out.println(a+ " is a leap year");
 		}
-		else if (a%100==0) 
+		else if (a%400==0) 
 		{
-			System.out.println(a+ " is not a leap year");
+			System.out.println(a+ " is a leap year");
 		}	
 		else
 		{
@@ -21,3 +20,4 @@ public class question6c
 	}
 
 }
+
